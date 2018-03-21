@@ -2,7 +2,7 @@
 
 def main():
 	file = open("A-small-practice.in.txt", "r")
-	outputFile = open("outpu.txt", "w")
+	outputFile = open("output.txt", "w")
 	testCases = int(file.readline())
 	for x in range(0, testCases):
 		line = file.readline().split()
