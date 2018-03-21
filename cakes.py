@@ -2,7 +2,7 @@
 
 def main():
 	file = open("A-small-practice.in.txt", "r")
-	outputFile = open("output2.txt", "w")
+	outputFile = open("outpu.txt", "w")
 	testCases = int(file.readline())
 	for x in range(0, testCases):
 		line = file.readline().split()
@@ -11,7 +11,6 @@ def main():
 		solution = solve(s, int(k))
 		output = "Case #{0}: {1}\n".format(x+1, solution)
 		outputFile.write(output)
-		print output
 	outputFile.close()
 
 def solve(s, k):
